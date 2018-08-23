@@ -1,0 +1,1 @@
+ensambla puzzle cargar_tablero movimiento_izquierda comprobar_movimiento_legal ejecutar_movimiento imprime_cadena imprime_numero_2_cifras mostrar_menu mostrar_tablero cargar_trofeo recoger_movimiento movimiento_abajo recoger_nombre movimiento_arriba movimiento_derecha
