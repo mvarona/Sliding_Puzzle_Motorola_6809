@@ -11,9 +11,9 @@ Instalación:
 
 Es necesario para hacerlo funcionar los archivos del emulador para el 6809 disponibles para Linux (6809emu-UbuntuXXXX.tar. En caso de usar una distro distinta a Ubuntu probar las dos versiones) donde se incluye el ensamblador y enlazador:
 
-1. Descomprimir el archivo .tar con "tar xvf 6809emu-UbuntuXXXX.tar" donde XXXX es la version del archivo que estás intentando instalar. Volver a abrir sesión para que se apliquen los cambios.
+1. Descomprimir el archivo .tar con la orden `tar xvf 6809emu-UbuntuXXXX.tar`, donde XXXX es la versión del archivo que estás intentando instalar. Volver a abrir sesión para que se apliquen los cambios.
 
-• Si al ejecutar,ensamblar o enlazar da un problema del tipo "bash: /home/javserher/bin/as6809: No such file or directory" en 64bits, instalar el siguiente paquete "sudo apt-get install libc6-i386".
+• Si al ejecutar,ensamblar o enlazar da un problema del tipo "bash: /home/javserher/bin/as6809: No such file or directory" en 64bits, instalar el siguiente paquete con la siguiente orden: `sudo apt-get install libc6-i386`.
 
 **Para ensamblar y enlazar o para ejecutar en un paso se deben especificar todos los nombres de ficheros .asm (ensamblado) disponibles en este proyecto, y a la hora de enlazar todos los .rel generados tras ensamblar**
 
@@ -33,7 +33,7 @@ Para ejecutar tras ensamblado/enlazado:
 
 **IMPORTANTE:**
 
-• Para ejecutar el puzzle basta con entrar a la carpeta contenedora (con la orden `cd ruta/hasta/Sliding_Puzzle`) y escribir en el terminal la siguiente orden (también presente en el archivo `orden.txt`):
+• Para ejecutar el puzzle basta con entrar a la carpeta contenedora (con la orden `cd ruta/hasta/Sliding_Puzzle_Motorola_6809-master`) y escribir en el terminal la siguiente orden (también presente en el archivo `orden.txt`):
 
 `ensambla puzzle cargar_tablero movimiento_izquierda comprobar_movimiento_legal ejecutar_movimiento imprime_cadena imprime_numero_2_cifras mostrar_menu mostrar_tablero cargar_trofeo recoger_movimiento movimiento_abajo recoger_nombre movimiento_arriba movimiento_derecha`
 
@@ -53,9 +53,9 @@ Installation:
 
 It is necesary to download the emulator archives (assembler,linker and executer) available for Linux (6809emu-UbuntuXXXX.tar. If you use a different Linux distro from Ubuntu, just try both versions of the archives).
 
-1. Decompress the file with the command "tar xvf 6809emu-UbuntuXXXX.tar" where XXXX is the rest of the name of the version you are trying to install. After that, reopen your session to apply the changes.
+1. Decompress the file with the command `tar xvf 6809emu-UbuntuXXXX.tar` where XXXX is the rest of the name of the version you are trying to install. After that, reopen your session to apply the changes.
 
-• If you receive an error in 64bits like "bash: /home/javserher/bin/as6809: No such file or directory" trying to assembly,linking or executing, install the following package with the command "sudo apt-get install libc6-i386".
+• If you receive an error in 64bits like "bash: /home/javserher/bin/as6809: No such file or directory" trying to assembly,linking or executing, install the following package with the command `sudo apt-get install libc6-i386`.
 
 **When assemblying,linking or 1-step-executing you need to specify all .asm (while assemblying or 1-step-executing) or .rel files generated after assemblying for linking**
 
@@ -75,7 +75,7 @@ To execute finally:
 
 **IMPORTANT:**
 
-• To run the puzzle is enough with access the container folder (with `cd root/to/Sliding_Puzzle_Folder` command), and write on the Terminal the following command (it is also contained on the file `orden.txt`):
+• To run the puzzle is enough with access the container folder (with `cd root/to/Sliding_Puzzle_Motorola_6809-master` command), and write on the Terminal the following command (it is also contained on the file `orden.txt`):
 
 `ensambla puzzle cargar_tablero movimiento_izquierda comprobar_movimiento_legal ejecutar_movimiento imprime_cadena imprime_numero_2_cifras mostrar_menu mostrar_tablero cargar_trofeo recoger_movimiento movimiento_abajo recoger_nombre movimiento_arriba movimiento_derecha`
 
